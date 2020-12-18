@@ -16,6 +16,5 @@ jobs:
           file: ./server-info/Dockerfile
           username: ${{ github.actor }}
           password: ${{ secrets.CR_PAT }}
-          registry: ghcr.io
-          repository: shockzinfinity/server-info
+          repository: ghcr.io/shockzinfinity/server-info
           tag_with_ref: true
