@@ -4,7 +4,7 @@ const fastify = require("fastify")({ logger: true });
 
 // Declare a route
 fastify.get("/", async (request, reply) => {
-  return { hostname: os.hostname(), hello: "world" };
+  return { hostname: os.hostname(), hello: "world@@@@!!!!" };
 });
 
 // Run the server!
