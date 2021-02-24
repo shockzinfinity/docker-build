@@ -1,7 +1,8 @@
 name: deepo
 on:
   push:
-    branches: main
+    branches:
+      - main
     paths:
       - "!**"
       - "deepo/**"
