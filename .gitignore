@@ -119,4 +119,5 @@ dist
 
 mysqldata/
 sql-data/
-dev-wordpress/app/public/
+xdebug/app/public/
+xdebug/app/webroot/
