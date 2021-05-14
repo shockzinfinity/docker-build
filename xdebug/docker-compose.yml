@@ -31,5 +31,6 @@ services:
       MYSQL_DATABASE: "wordpress"
     volumes:
       - ./mysqldata:/var/lib/mysql
+      - ./mysql-conf:/etc/mysql/conf.d
     ports:
       - 3306:3306
