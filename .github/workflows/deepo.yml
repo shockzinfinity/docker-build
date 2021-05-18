@@ -1,11 +1,11 @@
-name: server-info
+name: deepo
 on:
   push:
     branches:
       - main
     paths:
       - "!**"
-      - "server-info/**"
+      - "deepo/**"
 jobs:
   login-build-and-push:
     runs-on: ubuntu-latest

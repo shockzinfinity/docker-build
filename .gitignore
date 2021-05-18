@@ -116,3 +116,8 @@ dist
 .pnp.*
 
 .DS_Store
+
+mysqldata/
+sql-data/
+xdebug/app/public/
+xdebug/app/webroot/
